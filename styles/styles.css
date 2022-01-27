@@ -107,6 +107,9 @@ html {
   width: 40%;
   margin: 0 auto 4rem auto;
   box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+  opacity: 0;
+  animation: fadeAnimation 1s 1.5s forwards;
 }
 
 .banner-btn {
@@ -139,5 +142,16 @@ html {
 
 .banner-btn:hover::before {
   left: 100%;
+}
+
+@keyframes fadeAnimation {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 /* END SECTION-1*/
