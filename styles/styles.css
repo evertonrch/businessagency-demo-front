@@ -141,7 +141,6 @@ html {
   height: 100vh;
   background-image: url(../images/dark-bg.jpeg);
   background-size: cover;
-  position: absolute;
 }
 
 .banner {
