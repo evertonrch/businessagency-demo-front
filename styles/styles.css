@@ -15,6 +15,7 @@
 
 html {
   font-size: 62.5%; /* equals 10px*/
+  scroll-behavior: smooth;
 }
 
 .section-heading {
@@ -658,3 +659,32 @@ html {
   background-color: #5f0303;
 }
 /* END SECTION 4 */
+/* FOOTER */
+.footer {
+  width: 100%;
+  height: 12rem;
+  background-color: #202122;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rem;
+}
+
+.nav-footer a {
+  font-size: 2rem;
+  color: #eee;
+  margin-right: 2rem;
+  font-family: "MADE Soulmaze", sans-serif;
+  letter-spacing: 0.1rem;
+  transition: color 0.3s;
+}
+
+.nav-footer a:hover {
+  color: #862323;
+}
+
+.copy {
+  font-size: 1.5rem;
+  color: #ddd;
+}
+/* END FOOTER */
