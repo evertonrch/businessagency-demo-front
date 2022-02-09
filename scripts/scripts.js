@@ -26,4 +26,9 @@ const playPause = () => {
 btn.addEventListener("click", () => {
   playPause();
 });
+
+video.addEventListener("timeupdate", () => {
+  const barWidth = video.currentTime / video.duration;
+  bar.style.width = `${barWidth * 100}%`;
+});
 // END SECTION 2
