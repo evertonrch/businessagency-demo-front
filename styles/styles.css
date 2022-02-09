@@ -9,6 +9,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  outline: none;
   font-family: "Baloo Da 2", cursive;
 }
 
@@ -594,7 +595,6 @@ html {
 }
 
 .contact-details div {
-  border: 1px solid red;
   text-align: center;
   margin: 1rem;
   width: 20rem;
@@ -620,7 +620,41 @@ html {
 .contact-wrapper h1 {
   font-size: 3rem;
   color: #ccc;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   text-transform: uppercase;
+}
+
+.contact-form {
+  width: 60rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #444;
+  color: #eee;
+  padding: 1.3rem;
+  margin-bottom: 2rem;
+  border: none;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 300;
+}
+
+.contact-form textarea {
+  max-width: 100%;
+  max-height: 15rem;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #7a1010;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #5f0303;
 }
 /* END SECTION 4 */
