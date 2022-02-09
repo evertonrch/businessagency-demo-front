@@ -417,8 +417,8 @@ html {
 }
 
 .pricing-card {
-  width: 20rem;
-  height: 35rem;
+  width: 20rem !important;
+  height: 35rem !important;
   background-color: #181b1d;
   border-radius: 1rem;
   box-shadow: 2rem 2rem 6rem rgba(0, 0, 0, 0.7);
