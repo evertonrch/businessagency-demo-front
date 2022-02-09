@@ -36,3 +36,19 @@ video.addEventListener("timeupdate", () => {
   }
 });
 // END SECTION 2
+
+//SECTION 3 CARDS
+var swiper = new Swiper(".mySwiper", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 80,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+  },
+});
+//ENDSECTION 3 CARDS
