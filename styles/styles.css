@@ -1,4 +1,8 @@
 /* COMMOM STYLES*/
+:root {
+  --border-heading-card: 1rem 1rem 0 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -418,5 +422,83 @@ html {
   background-color: #181b1d;
   border-radius: 1rem;
   box-shadow: 2rem 2rem 6rem rgba(0, 0, 0, 0.7);
+}
+
+.pricing-card-front {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pricing-card-heading {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 300;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  padding-left: 2rem;
+  align-items: center;
+}
+
+.heading-free {
+  background: linear-gradient(to right, #087285, #0da5d3);
+  border-radius: var(--border-heading-card);
+}
+
+.heading-basic {
+  background: linear-gradient(to right, #946809, #bdba0e);
+  border-radius: var(--border-heading-card);
+}
+
+.heading-standard {
+  background: linear-gradient(to right, #a10c14, #e23b4b);
+  border-radius: var(--border-heading-card);
+}
+
+.heading-premium {
+  background: linear-gradient(to right, #0b7e48, #3be286);
+  border-radius: var(--border-heading-card);
+}
+
+.pricing-card-price {
+  font-size: 6rem;
+  color: #fff;
+  font-weight: 900;
+  font-family: "MADE Soulmaze", sans-serif;
+}
+
+.pricing-card-list li {
+  margin-bottom: 0.2rem;
+}
+
+.list-free {
+  color: #0da5d3;
+}
+
+.list-basic {
+  color: #bdba0e;
+}
+
+.list-standard {
+  color: #e23b4b;
+}
+
+.list-premium {
+  color: #3be286;
+}
+
+.pricing-card-list i {
+  font-size: 1.5rem;
+  width: 3rem;
+}
+
+.pricing-card-list span {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
 }
 /* END SECION 3 */
